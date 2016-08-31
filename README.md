@@ -1,1 +1,0 @@
- # akademosclub.github.io
