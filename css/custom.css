@@ -18,7 +18,7 @@ body {
 /* Customs */
 
 .headerDivider {
-     border-left:1px solid #00bfff; 
+     border-left:1px solid #5DADE2; 
      border-right:1px solid #00bfff; 
      height:100px;
      position:absolute;
@@ -41,55 +41,66 @@ body {
 }
 
 .quote {
-  background: -webkit-linear-gradient(to right, #ffffff , #00bfff); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(to right, #ffffff, #00bfff); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(to right, #ffffff, #00bfff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #ffffff,  #00bfff); /* Standard syntax */
+  background: -webkit-linear-gradient(to right, #ffffff , #5DADE2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, #ffffff, #5DADE2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, #ffffff, #5DADE2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ffffff,  #5DADE2); /* Standard syntax */
   padding:40px 100px;
 }
 
 .quote p:nth-child(1){
-	font-size: 48px;
-	color:#000000;
+	font-size: 35px;
+	color:white;
 }
 
 .quote p:nth-child(2){
 	font-size: 16px;
-	color:#000000;
+	color:white;
 	float:right;
 }
 
 .ldp-content > p:nth-child(1) {
 	font-size: 38px;
+	color:white;
 }
 
 .ldp-content > p:nth-child(2) {
 	font-size: 16px;
+	color:white;
 }
 
 .ldp-button {
-	background-color: #00bfff;
+	background-color: #5DADE2;
 	color:#ffffff;
-	height:50px;
-	padding:14px 26px;
+	height:40px;
+	width: 150px;
+	padding:14px 14px;
 	border-radius:14px;
 }
 
 .ldp-button-white {
 	background-color: #ffffff;
 	color:#00bfff;
-	height:50px;
+	height:40px;
+	width: 150px;
 	padding:14px 26px;
 	border-radius:14px;
 }
 
 .ldp {
-	background: -webkit-linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right top, #ffffff, #ffffff, #00bfff , #00bfff); /* Standard syntax */
+	background: -webkit-linear-gradient(to right top, #ffffff, #5DADE2 , #5DADE2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right top, #ffffff, #5DADE2 , #5DADE2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right top, #ffffff, #5DADE2 , #5DADE2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right top, #ffffff, #5DADE2 , #5DADE2); /* Standard syntax */
 	background-repeat: no-repeat;
-	background-size: 1263px 766px;
+	background-size: 1350px 766px;
+	height: 500px;
+	text-align: left;
+	color:#000000;
+}
+
+.ldphead {
+	background-size: 1350px 766px;
 	height: 500px;
 	text-align: left;
 	color:#000000;
@@ -101,7 +112,7 @@ body {
 	-moz-filter: opacity(50%);
 	filter: opacity(50%);
 	position:absolute;
-	width:1263px;
+	width:1350px;
 	height:600px;
 	margin-top: 104px;
 }
@@ -115,12 +126,21 @@ body {
 	color:inherit;
 }
 
+.twin-a b, .twin-b b {
+	font-size: 25px;
+}
+
 .twin-a {
 	text-align: center;
 	min-height: 300px;
-	background-color: #00bfff;
+	background-color: #5DADE2;
 	padding:40px 81px;
 	color:#ffffff;
+}
+
+.twin-a p {
+	font-size: 16px;
+	color:white;
 }
 
 .twin-b {
@@ -128,7 +148,12 @@ body {
 	min-height: 300px;
 	background-color: #ffffff;
 	padding:40px 81px;
-	color:#00bfff;
+	color:#5DADE2;
+}
+
+
+.twin-b p {
+	font-size: 16px;
 }
 
 footer a {
